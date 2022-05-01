@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <h1>placeholder boardgame header</h1>
+      <h2>test edit</h2>
     </div>
   );
 }
