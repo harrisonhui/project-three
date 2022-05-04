@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios';
 import Button from './components/Button';
 import DisplayBoardGame from './components/DisplayBoardGame';
-// stretch goal imports - NOT COMPLETED TO THIS DATE DOES NOT WORK PROPERLY ALL COMMENTED OUT
+// stretch goal imports - NOT COMPLETED TO THIS DATE DOES NOT WORK PROPERLY ALL CODE COMMENTED OUT
 import BoardGameForm from './components/BoardGameForm';
 
 function App() {
@@ -29,11 +29,12 @@ function App() {
           setBoardGame(responseData)
       })
 
+    return <h2>Clck the button for another board game!</h2>
   }
 
   return (
     <div className="App">
-      <h1>Random Board Game Generator!</h1>
+      <h1>Random Board Game Generator</h1>
       < Button clicked={onClickHandler} />
       < DisplayBoardGame boardGame={boardGame}/>
       <footer>Created at Juno College of Technology</footer>
