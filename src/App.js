@@ -35,6 +35,7 @@ function App() {
   return (
     <div className="App">
       <h1>Random Board Game Generator</h1>
+      <h3>Created using the Board Game Atlas API</h3>
       < Button clicked={onClickHandler} />
       < DisplayBoardGame boardGame={boardGame}/>
       <footer>Created at Juno College of Technology</footer>
